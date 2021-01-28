@@ -1,3 +1,9 @@
+# psycopg2-lambda-layer-rdspostgresql
+AWS Lambda layer for psycopg2
+
+
+To use in your serverless.yml:
+```
 functions:
   hello:
     handler: handler.hello
@@ -34,3 +40,9 @@ functions:
       - arn:aws:lambda:ap-southeast-1:898466741470:layer:psycopg2-py38:1
       - arn:aws:lambda:ap-southeast-2:898466741470:layer:psycopg2-py38:1
       - arn:aws:lambda:sa-east-1:898466741470:layer:psycopg2-py38:1
+```
+
+## Regions
+Please use the layer that matches your region, or you will get a permissions error.
+
+If you desire another region, please open an issue.
