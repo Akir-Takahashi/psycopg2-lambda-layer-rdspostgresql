@@ -12,6 +12,12 @@ functions:
       - arn:aws:lambda:ap-northeast-1:507248097872:layer:pycopg2:1
 ```
 
+```
+custom:
+  pythonRequirements:
+    noDeploy:
+      - pycopg2
+```
 ## Regions
 Please use the layer that matches your region, or you will get a permissions error.
 
