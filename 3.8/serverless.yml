@@ -1,4 +1,4 @@
-service: psycopg2-lambda-layer
+service: psycopg2-lambda-layer-rdspostgresql
 
 provider:
   name: aws
