@@ -9,7 +9,7 @@ functions:
     handler: handler.hello
     layers:
       # py 3.8:
-      - arn:aws:lambda:ap-northeast-1:507248097872:layer:psycopg2-py38-mimamori:1
+      - arn:aws:lambda:ap-northeast-1:507248097872:layer:pycopg2:1
 ```
 
 ## Regions
