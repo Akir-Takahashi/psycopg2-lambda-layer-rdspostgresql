@@ -1,1 +1,0 @@
-from lambda_function.lambda_handler import pycopg2
